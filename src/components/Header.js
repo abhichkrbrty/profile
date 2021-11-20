@@ -17,11 +17,12 @@ const useStyles = makeStyles((theme) => ({
     color: "OrangeRed",
   },
   name: {
-    color: "tomato",
+    color: "OrangeRed",
   },
   subtitle: {
-    color: "tan",
+    color: "#009e00",
     textTransform: "uppercase",
+    backgroundColor: "#222",
   },
   typedContainer: {
     position: "absolute",

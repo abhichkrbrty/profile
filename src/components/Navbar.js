@@ -14,6 +14,9 @@ import Divider from "@material-ui/core/Divider";
 import Typography from "@material-ui/core/Typography";
 import ArrowBack from "@material-ui/icons/ArrowBack";
 import AssignmentInd from "@material-ui/icons/AssignmentInd";
+import ScatterPlotIcon from '@material-ui/icons/ScatterPlot';
+import AdjustIcon from '@material-ui/icons/Adjust';
+import TimelineIcon from '@material-ui/icons/Timeline';
 import Home from "@material-ui/icons/Home";
 import Apps from "@material-ui/icons/Apps";
 import ContactMail from "@material-ui/icons/ContactMail";
@@ -24,18 +27,18 @@ import Footer from "../components/Footer";
 
 const useStyles = makeStyles((theme) => ({
   appbar: {
-    background: "#222",
+    background: "#808080",
     margin: 0,
   },
   arrow: {
     color: "tomato",
   },
   title: {
-    color: "tan",
+    color: "#222",
   },
   menuSliderContainer: {
     width: 250,
-    background: "#511",
+    background: "#FFF",
     height: "100%",
   },
   avatar: {
@@ -45,15 +48,15 @@ const useStyles = makeStyles((theme) => ({
     height: theme.spacing(13),
   },
   listItem: {
-    color: "tan",
+    color: "OrangeRed",
   },
 }));
 
 const menuItems = [
   { listIcon: <Home />, listText: "Home", listPath: "/" },
-  { listIcon: <AssignmentInd />, listText: "Resume", listPath: "/resume" },
-  { listIcon: <Apps />, listText: "Portfolio", listPath: "/portfolio" },
-  { listIcon: <ContactMail />, listText: "Contact", listPath: "/contact" },
+  { listIcon: <ScatterPlotIcon />, listText: "Experience", listPath: "/resume" },
+  { listIcon: <TimelineIcon />, listText: "Skill Set", listPath: "/portfolio" },
+  { listIcon: <AdjustIcon />, listText: "Contact", listPath: "/contact" },
 ];
 
 const Navbar = () => {
@@ -63,7 +66,7 @@ const Navbar = () => {
 
   const sideList = () => (
     <Box className={classes.menuSliderContainer} component="div">
-      <Avatar className={classes.avatar} src={avatar} alt="Mahmudul Alam" />
+      <Avatar className={classes.avatar} src={avatar} alt="Abhi Chakraborty" />
       <Divider />
       <List>
         {menuItems.map((item, i) => (

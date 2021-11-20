@@ -35,19 +35,19 @@ const projects = [
     image: project1,
   },
   {
-    name: "Application Analyser",
+    name: "Application Event Analyser",
     description: `Application Analysis using latest Analysing tools.
     The Analysis includes analysis of various application elements and events. Also various design changes suggestions based on the analysis data`,
     image: project2,
   },
   {
-    name: "Option Stock Trading",
+    name: "Option Stock Analyser",
     description: `Option stock trading in multple domains using latest trading tools
     The trading includes Buying and Selling of stock options in various commodities. Data gathering , Analysis and Indications from various timeline events. `,
     image: project3,
   },
   {
-    name: "Social Media Analyser",
+    name: "SocialMedia Trend Analyser",
     description: `Social media analysis of various social media platforms
     The Analysis includes trend idetifications and its usage in creating marketing strategy for domain categorisation and selling strategies. `,
     image: project4,
